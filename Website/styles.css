@@ -15,7 +15,7 @@ a {
 }
 
 body{
-background-image:url('https://wallpaperaccess.com/full/2825710.gif');
+background-image:url('https://wallpaperaccess.com/full/869910.gif');
 background-position: center;
 background-size: cover;
 }
@@ -38,7 +38,7 @@ background-size: cover;
 
 #LT{
   text-decoration: underline;
-  color: 
+  color:
 }
 
 .Pics{
@@ -57,6 +57,10 @@ h1{
 #Tip{
   text-align: center;
   text-decoration: underline;
+}
+
+#Sub{
+  text-align: center;
 }
 
 .Heading{
@@ -127,3 +131,4 @@ hr {
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
