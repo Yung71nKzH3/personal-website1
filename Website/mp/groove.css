@@ -9,6 +9,8 @@ h1, h3 {
 
 body {
   background-image: url(https://www.designbolts.com/wp-content/uploads/2014/03/Bright-Blue1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
