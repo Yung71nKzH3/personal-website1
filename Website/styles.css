@@ -18,6 +18,8 @@ body{
 background-image:url('https://wallpaperaccess.com/full/869910.gif');
 background-position: center;
 background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
 }
 
 .Links{
