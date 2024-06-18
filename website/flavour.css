@@ -1,10 +1,13 @@
-#greeting{
+.greeting{
     margin-top: 5%;
     align-items: center;
+    background-color: black;
+    width: fit-content;
+    background-blend-mode: lighten;
 }
 
-#heading{
-    text-decoration: black, bold;
+.heading{
+    text-decoration: white, bold;
 }
 
 body{
