@@ -1,13 +1,19 @@
 .greeting{
-    margin-top: 5%;
-    align-items: center;
-    background-color: black;
-    width: fit-content;
-    background-blend-mode: lighten;
+    background-color: lightpink;
+    padding: 10px;
 }
 
 .heading{
-    text-decoration: white, bold;
+    color: white;
+    font-family: "Baskerville", serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.headingtext{
+    color: white;
+    font-family: "Baskerville", serif;
+    text-align: center;
 }
 
 body{
