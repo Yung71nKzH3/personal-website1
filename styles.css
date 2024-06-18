@@ -1,0 +1,16 @@
+#greetin{
+    margin-top: 5%;
+    align-items: center;
+}
+
+#heading{
+    text-decoration: black, bold;
+}
+
+body{
+    background-image:url('https://wallpaperaccess.com/full/869910.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
