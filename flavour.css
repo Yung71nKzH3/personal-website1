@@ -126,6 +126,14 @@ footer {
   cursor: pointer;
 }
 
+#contactButton{
+  text-decoration: underline;
+}
+
+#contactButton:hover{
+  cursor: pointer;
+}
+
 /*ZF - MAIN - Blog*/
 
 main {
@@ -262,6 +270,14 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
 }
 
+.BlogLink{
+  color: red;
+}
+
+.BlogLink:hover{
+  color: darkred;
+}
+
 /*ZF - Blog - BlogFormat*/
 
 .BlogBox{
@@ -299,6 +315,7 @@ img {vertical-align: middle;}
   font-family: Libre Baskerville;
   text-decoration: underline;
   color: white;
+  padding-right: 1%;
 }
 
 .BlogIntro h1{
@@ -310,6 +327,14 @@ img {vertical-align: middle;}
   color: darkgray;
   font-family: Libre Baskerville;
   font-size: 0.8em;
+}
+
+.BlogBack a{
+  color: red;
+}
+
+.BlogBack a:hover{
+  color: darkred;
 }
 
 .BlogMain{
@@ -328,13 +353,26 @@ img {vertical-align: middle;}
   margin: 1.5%;
 }
 
-.BlogMainText h1{
+.BlogMainText h1, h2, h3{
   color: white;
   text-decoration: underline;
 }
 
 .BlogMainText p{
   color: white;
+}
+
+.BlogMainText a{
+  color: red;
+  text-decoration: none;
+}
+
+.BlogMainText a:hover{
+  color: darkred;
+}
+
+.ender{
+  text-align: center;
 }
 
 /*ZF - About*/
@@ -406,8 +444,13 @@ img {vertical-align: middle;}
   text-decoration: underline;
 }
 
-.AboutMainText p{
+.AboutMainText p,li{
   color: white;
+}
+
+#bold{
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /*ZF - Stuff*/
@@ -427,15 +470,15 @@ img {vertical-align: middle;}
 .stuffgridcontainer{
   margin: 0 auto;
   max-width: 90%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 /* CSS styles to define the grid layout */
 .grid-containerStuff {
   display: grid;
   grid-template-columns: repeat(4, 25%); /* Create 4 equal-width columns */
-  grid-template-rows: repeat(2, 1fr); /* Create 2 equal-height rows */
+  grid-template-rows: repeat(0, 1fr); /*touchy*/
 }
 
 .grid-itemStuff {
@@ -451,6 +494,19 @@ img {vertical-align: middle;}
 .grid-itemStuff a{
   text-decoration: underline;
   color: red;
+}
+
+.grid-itemStuff a:hover{
+  color: darkred;
+}
+
+.item img{
+  border-color: red;
+  border-style: outset;
+}
+
+.item img:hover{
+  border-style: inset;
 }
 
 .item p, h1{
@@ -518,10 +574,15 @@ img {vertical-align: middle;}
   text-decoration: none;
 }
 
-#Mast, #Steam, #Git, #Spot, #Insta1, #Insta2, #X1, #X2, #YT1, #YT2, #AniList{
+#Mast, #Steam, #Git, #Spot, #Insta1, #Insta2, #X1, #X2, #YT1, #YT2, #AniList, #Lett{
   background-repeat: no-repeat;
   background-size: cover;
   border-style: solid;
+}
+
+#Lett{
+  background-image: url("images/Socials/Letterboxd.png");
+  border-color: orange;
 }
 
 #YT1{
@@ -577,6 +638,62 @@ img {vertical-align: middle;}
 #Mast{
   background-image: url("images/Socials/Mast.png");
   border-color: red;
+}
+
+/*Thank You*/
+
+.tymain{
+  border-style: none;
+}
+
+.tytitle{
+  text-align: center;
+}
+
+.tycontainer{
+  margin: 0 auto;
+  width: 90%;
+  height: 80%;
+  background-color: #808080;
+  border-color: darkred;
+  border-style: ridge;
+}
+
+.brickcontainer{
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brick{
+  width: fit-content;
+  height: fit-content;
+  background-color: #444;
+  padding: 0.8%;
+  border-color: darkred;
+  border-style: solid;
+}
+
+.brick p{
+  color: white;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+#gal{
+  color: pink;
+}
+
+.backer{
+  text-align: center;
+}
+
+.backer a{
+  color: red;
+}
+
+.backer a:hover{
+  color: darkred;
 }
 
 /*Test*/
