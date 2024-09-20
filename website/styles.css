@@ -1,5 +1,5 @@
 .greeting{
-    background-color: #acabd7;
+    background-color: #808080;
     padding: 10px;
 }
 
@@ -16,20 +16,12 @@
     text-align: center;
 }
 
-a:link {  /* Unvisited links */
-    color: purple;
-}
-  
-a:visited { /* Visited links */
-    color: purple;
-}
-  
-a:hover { /* Links on hover */
-    color: lightskyblue;
+a{
+    color: darkred;
 }
 
 body{
-    background-image:url('https://wallpaperaccess.com/full/869910.gif');
+    background-color: black;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
